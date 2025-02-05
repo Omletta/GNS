@@ -35,8 +35,8 @@ def move_config_files():
                 shutil.move(src_path, dest_path)
                 print(f"✅ Moved {file} to {dest_path}")
 
-# Run the bot continuously
-print("🚀 Drag & Drop Bot Started! Watching for new config files...")
+
+print("🚀 Drag & Drop Bot Started!")
 
 
 move_config_files()
